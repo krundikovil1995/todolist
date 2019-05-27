@@ -1,0 +1,183 @@
+body {
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    background: darkgrey;
+    height: 50px;
+    padding-top: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: calc(100% + 18px);
+}
+
+table {
+    display: inline-block;
+    float: inherit;
+    width: 32%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+table caption {
+    border-bottom: 2px solid black;
+    background: aqua;
+    border-radius: 20px 20px 0px 0px;
+}
+
+table td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td.id {
+    width: 15%;
+    border-right: 2px solid black;
+}
+
+td.task {
+    width: 60%;
+    border-right: 2px solid black;
+}
+
+td.date {
+    width: 15%;
+    border-right: 2px solid black;
+}
+
+td.delete {
+    width: 10%;
+    border-right: 2px solid black;
+    cursor: pointer;
+}
+
+div {
+    display: inline-block;
+}
+
+
+div.welcome {
+    text-align: left;
+    width: 100%;
+    color: darkorange;
+    font-size: 24px;
+}
+
+p.logout {
+    width: 70px;
+    font-size: 20px;
+    background-color: darkgrey;
+    border-radius: 20px;
+    color: crimson;
+    cursor: pointer;
+}
+
+div#result {
+    width: 100%;
+    font-style: italic;
+    font-size: 18px;
+    color: red;
+}
+
+div#mainlist {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+div.signin {
+    display: block;
+    width: 100%;
+
+}
+
+div.createtask {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+div.createtask input {
+    border: 2px solid black;
+}
+
+
+form input {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:hover {
+    background-color: aqua;
+}
+
+input:focus {
+    background-color: darkturquoise;
+}
+
+fieldset {
+    background: darkgrey;
+    border-radius: 20px;
+}
+
+.submit {
+    background-color: darkorange;
+}
+
+.submit:focus {
+    background-color: darkorange;
+}
+
+.move p {
+    cursor: pointer;
+}
+
+p.movetodo {
+    display: none;
+    width: 100%;
+    height: 20px;
+    background-color: darkorange;
+}
+
+p.movedoing {
+    display: none;
+    width: 100%;
+    height: 20px;
+    background-color: darkorange;
+}
+
+p.movedone {
+    display: none;
+    width: 100%;
+    height: 20px;
+    background-color: darkorange;
+}
+
+td.delete {
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    div {
+        display: block;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+    }
+
+
+}
