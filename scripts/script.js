@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //авторизация
+    //авторизация и занесение в бд
     $('#signin').submit(function (e) {
         e.preventDefault();
 

@@ -25,7 +25,6 @@ $(document).ready(function () {
         return false;
     });
 
-
     //перенос таска в другой статус (doing, done)
     $('td.move').find('p').click(function (e) {
         let move = $(this).text();

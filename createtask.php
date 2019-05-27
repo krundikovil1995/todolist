@@ -7,7 +7,6 @@ $email = $_SESSION['email'];
 $id = $_SESSION['id'];
 
 $error = [];
-
 //проверка введенных данных
 if (empty($_POST['task'])) {
     $error[] = 'Введите task';

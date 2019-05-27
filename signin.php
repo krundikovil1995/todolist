@@ -18,7 +18,6 @@ if (empty ($_POST['name'])) {
     $email = $_POST['email'];
     $key = $_POST['key'];
 }
-
 //Если все данные введены корректно, проверяем наличие пользователя в бд
 if (empty($error)) {
     $mysql = new mysqli($db['host'], $db['name'], $db['pass'], $db['db']);

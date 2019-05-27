@@ -17,7 +17,6 @@ $taskFromTable = $res['task'];
 $dateFromTable = $res['date'];
 $userIdFromTable = $res['user_id'];
 
-
 $sql = "DELETE FROM `todo` WHERE `id` = '$outid'";
 $mysql->query($sql);
 

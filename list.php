@@ -7,7 +7,6 @@ $email = $_SESSION['email'];
 $mysql = new mysqli($db['host'], $db['name'], $db['pass'], $db['db']);
 $sql = "SELECT todo.id, todo.task, todo.date, todo.status_id FROM todo JOIN user ON todo.user_id = user.id WHERE user.email='$email' ORDER BY `date` ASC";
 $result = $mysql->query($sql);
-
 while ($row = $result->fetch_assoc()) {
     $array[] = $row;
 }
